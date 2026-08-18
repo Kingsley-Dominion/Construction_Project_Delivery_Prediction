@@ -74,9 +74,8 @@ The dashboards roll up from activity-level Primavera P6 data — individual line
 
 1. **Report against the Original baseline, not the re-planned one.** The Planned-vs-Actual view currently makes the project look on track; the Original-vs-Actual view shows overruns of 100–165%.
 2. **The predictive layer is a promising start, not a finished product.** The Random Forest cost model (R²=0.59, n=6) is worth building on with more data; the two regression models (n=2, and a suspiciously perfect n=73 classifier) both need more rigorous validation before being trusted.
-3. **Clean the "(SCOPE REMOVED)" activities out of completion-rate calculations** — they're currently a likely source of the >100% efficiency figure.
-4. **The November schedule-variance spike deserves a one-line explanation** wherever this dashboard gets presented, since it's the most visually striking point on the whole page.
+3. **The November schedule-variance spike deserves a one-line explanation** wherever this dashboard gets presented, since it's the most visually striking point on the whole page.
 
 ## Methodology Note
 
-The Random Forest, Linear Regression, and Logistic Regression diagnostics were built in Python (scikit-learn) and embedded into Power BI via Python visuals — worth stating explicitly in the published version, since it's a nice signal of the mixed Power BI + Python skill set this project demonstrates.
+The Random Forest, Linear Regression, and Logistic Regression diagnostics were built in Python (scikit-learn) and embedded into Power BI via Python visuals
